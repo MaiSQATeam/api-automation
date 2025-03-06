@@ -2,4 +2,5 @@
 /shelf/
 /workspace.xml
 # IDE's project files
-.idea/
+.idea/vcs.xml
+.idea/uiDesigner.xml
