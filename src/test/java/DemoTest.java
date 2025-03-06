@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import java.util.HashMap;
 import java.util.Map;
 
-public class demo {
+public class DemoTest {
 
     @Test
     public void testGetUsers(){
