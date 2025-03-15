@@ -13,9 +13,9 @@ public class DemoTest {
         baseURI = "https://reqres.in/api";
 
         given()
-        .when()
+                .when()
                 .get("/users")
-        .then()
+                .then()
                 .statusCode(200)
                 .body("data[1].first_name", equalTo("Janet"));
     }
@@ -31,10 +31,10 @@ public class DemoTest {
         given()
                 .log().all()
                 .body(map.toString())
-        .when()
+                .when()
                 .post("/users")
-        .then()
-            .log().all()
-            .statusCode(201);
+                .then()
+                .log().all()
+                .statusCode(201);
     }
 }
